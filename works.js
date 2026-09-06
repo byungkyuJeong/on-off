@@ -57,8 +57,8 @@ const works = [
 {
   title: "mini_01",
   category: "미니어처",
-  image: "no7_mini_01_off.jpg",
-  onImage: "no7_mini_01_on.jpg",
+  image: "no7_mini_01.jpg",
+  onImage: "no7_mini_01.jpg",
   tags: "작은 세계 · 빛 · 몰입",
     year: "2026",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
@@ -69,7 +69,8 @@ const works = [
  {
     title: "mini_02",
     category: "미니어처",
-    image: "no8_mini_02.jpg",
+ image: "no8_mini_02_off.jpg",
+  onImage: "no8_mini_02_on.jpg",
     tags: "작은 세계 · OFF의 시간",
     year: "2025",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
