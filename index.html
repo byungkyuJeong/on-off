@@ -19,6 +19,12 @@ footer{padding:45px 0;background:#171717;color:#fff}.small{font-size:11px;color:
 @media(max-width:800px){.menu{gap:12px}.menu a:nth-child(n+5){display:none}.heroGrid,.two,.artist,.info,.modalBox{grid-template-columns:1fr}.heroImg{order:-1}.works{grid-template-columns:1fr 1fr}.modalText{padding:23px}}
 @media(max-width:520px){.wrap{width:min(100% - 28px,1180px)}.works{grid-template-columns:1fr}.work img{height:auto;aspect-ratio:4/3}.title{font-size:72px}}
 </style>
+
+<style>
+.resource-links{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}
+.resource-link{display:inline-flex;align-items:center;gap:6px;padding:7px 11px;border:1px solid currentColor;border-radius:4px;text-decoration:none;font-size:.9rem}
+</style>
+
 </head>
 <body>
 <nav><div class="wrap navin"><a class="logo" href="#top">ON <b>&</b> OFF</a><div class="menu"><a href="#works">WORKS</a><a href="#note">NOTE</a><a href="#artist">ARTIST</a><a href="#interview">INTERVIEW</a><a href="portfolio.html">PORTFOLIO</a><a href="#info">INFO</a></div></div></nav>
@@ -52,7 +58,7 @@ footer{padding:45px 0;background:#171717;color:#fff}.small{font-size:11px;color:
   <div class="metaRow"><b>재료</b><span id="mMaterial"></span></div>
   <div class="metaRow"><b>크기</b><span id="mSize"></span></div>
 </div>
-<p class="description" id="mDescription"></p>
+<p class="description" id="mDescription"></p>${renderResourceLinks(item)}
 <div class="videoBox" id="videoBox" style="display:none">
   <h3>작품 영상</h3>
   <iframe id="iframe" title="작품 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -117,5 +123,22 @@ document.getElementById("close").onclick=closeModal;
 modal.onclick=e=>{if(e.target===modal)closeModal()};
 document.addEventListener("keydown",e=>{if(e.key==="Escape")closeModal()});
 </script>
+
+<script>
+/* ON&OFF portfolio resource helper.
+   Add to each work in works.js:
+   youtube: "https://youtu.be/...",
+   articles: [{title:"기사 제목", url:"https://..."}],
+   blogs: [{title:"블로그 제목", url:"https://..."}]
+*/
+function renderResourceLinks(item){
+  const links=[];
+  if(item.youtube) links.push(`<a class="resource-link" href="${item.youtube}" target="_blank" rel="noopener">▶ 작품 영상</a>`);
+  (item.articles||[]).forEach(x=>links.push(`<a class="resource-link" href="${x.url}" target="_blank" rel="noopener">📰 ${x.title}</a>`));
+  (item.blogs||[]).forEach(x=>links.push(`<a class="resource-link" href="${x.url}" target="_blank" rel="noopener">📝 ${x.title}</a>`));
+  return links.length ? `<div class="resource-links">${links.join("")}</div>` : "";
+}
+</script>
+
 </body>
 </html>
