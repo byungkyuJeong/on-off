@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ON & OFF — 제2회 정병규 개인전</title>
+<meta name="description" content="제2회 정병규 개인전 ON & OFF — 켜지고, 멈추고, 다시 움직이는 것들">
+<style>
+:root{--orange:#f39a00;--red:#e51d24;--ink:#171717;--muted:#707070;--line:#e8e8e8}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#fff;color:var(--ink);font-family:Arial,"Noto Sans KR","Malgun Gothic",sans-serif;line-height:1.65}
+a{text-decoration:none;color:inherit}.wrap{max-width:1240px;margin:auto;padding:0 28px}
+nav{position:fixed;z-index:20;top:0;left:0;right:0;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{height:64px;display:flex;align-items:center;justify-content:space-between}.logo{font-weight:900;letter-spacing:.04em}.logo span{color:var(--orange)}.menu{display:flex;gap:24px;font-size:12px;letter-spacing:.08em}
+.hero{padding:105px 0 70px}.heroGrid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.eyebrow{font-size:12px;letter-spacing:.15em;color:#666;margin-bottom:25px}.title{font-size:clamp(80px,11vw,160px);line-height:.78;letter-spacing:-.08em;margin:0 0 30px}.title .amp{color:var(--orange)}.subtitle{font-size:clamp(20px,2.6vw,32px);font-weight:700;line-height:1.25}.info{font-size:14px;color:#444}.date{font-size:clamp(30px,4vw,52px);color:var(--red);margin-top:18px;letter-spacing:-.04em}.heroImg img{width:100%;display:block;aspect-ratio:3/4;object-fit:cover}
+section{padding:100px 0;border-top:1px solid var(--line)}.sectionTitle{font-size:11px;letter-spacing:.2em;color:#777;margin-bottom:35px}.lead{font-size:clamp(28px,4vw,52px);line-height:1.28;letter-spacing:-.04em}
+.intro{display:grid;grid-template-columns:1.05fr .95fr;gap:70px}.intro p{font-size:16px;color:#444}.quote{font-size:clamp(28px,4vw,50px);line-height:1.25}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:28px}.filter{border:1px solid #ddd;background:#fff;border-radius:99px;padding:8px 15px;font-size:12px;cursor:pointer}.filter.active{background:#111;color:#fff;border-color:#111}
+.works{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.work{border:1px solid #e7e7e7;background:#fafafa;cursor:pointer;overflow:hidden}.work img{width:100%;height:330px;object-fit:cover;display:block;transition:.4s}.work:hover img{transform:scale(1.025)}.workBody{padding:16px 18px 19px}.workNo{font-size:10px;color:#999;letter-spacing:.12em}.work h3{font-size:18px;margin:5px 0 2px}.work p{font-size:12px;color:#777;margin:0}
+.artist{display:grid;grid-template-columns:350px 1fr;gap:55px}.artist img{width:100%;aspect-ratio:1;object-fit:cover}.artistName{font-size:31px;margin:0 0 14px}.artistBio{font-size:15px;color:#444}
+.qa{border-top:1px solid #ddd}.q{padding:27px 0;border-bottom:1px solid #ddd}.q strong{display:block;margin-bottom:10px;font-size:15px}.q p{max-width:930px;margin:0;color:#444;font-size:15px}
+.place{display:grid;grid-template-columns:1fr 1fr;gap:18px}.card{background:#f7f7f7;padding:30px}.card h3{margin:0 0 14px}.card p{font-size:14px;color:#444}
+footer{background:#111;color:#fff;padding:55px 0}.small{font-size:11px;color:#aaa}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.88);display:none;z-index:50;align-items:center;justify-content:center;padding:22px}.modal.open{display:flex}.modalBox{width:min(1050px,96vw);max-height:92vh;overflow:auto;background:#fff;display:grid;grid-template-columns:1.1fr .9fr}.modalImg{background:#111;display:flex;align-items:center;justify-content:center}.modalImg img{width:100%;max-height:86vh;object-fit:contain}.modalText{padding:34px}.modalText h2{margin:0 0 5px;font-size:28px}.modalText .cat{font-size:11px;letter-spacing:.14em;color:#888}.modalText p{font-size:14px;color:#444}.videoBtn{display:inline-block;margin-top:15px;padding:11px 17px;background:#111;color:#fff;font-size:12px;border-radius:2px}.close{position:fixed;right:22px;top:10px;color:#fff;font-size:35px;cursor:pointer}.videoBox{margin-top:20px;display:none}.videoBox.open{display:block}.videoBox iframe{width:100%;aspect-ratio:16/9;border:0}
+.adminNote{margin-top:28px;padding:18px 20px;border:1px dashed #ccc;background:#fafafa;font-size:13px;color:#666}
+@media(max-width:800px){.menu{display:none}.heroGrid,.intro,.artist,.place,.modalBox{grid-template-columns:1fr}.hero{padding-top:100px}.works{grid-template-columns:1fr 1fr}.modalText{padding:25px}.modalImg img{max-height:55vh}}
+@media(max-width:520px){.works{grid-template-columns:1fr}.work img{height:auto;aspect-ratio:4/3}.wrap{padding:0 18px}section{padding:75px 0}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="logo" href="#">ON <span>&</span> OFF</a><div class="menu"><a href="#works">WORKS</a><a href="#note">NOTE</a><a href="#artist">ARTIST</a><a href="#interview">INTERVIEW</a><a href="#info">INFO</a></div></div></nav>
+
+<header class="hero"><div class="wrap heroGrid"><div>
+<div class="eyebrow">JEONG BYEONG-GYU · 2ND SOLO EXHIBITION</div>
+<h1 class="title">ON<br><span class="amp">&</span> OFF</h1>
+<p class="subtitle">켜지고, 멈추고,<br>다시 움직이는 것들</p>
+<div class="info">제2회 정병규 개인전<br>2026. 09. 11 — 09. 17<br>오픈아츠 스페이스 머지 · 부산</div>
+</div><div class="heroImg"><img src="poster.jpg" alt="제2회 정병규 개인전 포스터"><div class="date">2026.09.11 — 17</div></div></div></header>
+
+<section><div class="wrap"><div class="sectionTitle">EXHIBITION</div><div class="lead">작은 신호에서 시작된 움직임.<br>멈추고, 다시 켜지고,<br>예상하지 못한 방향으로 이어집니다.</div></div></section>
+
+<section id="works"><div class="wrap"><div class="sectionTitle">WORKS</div>
+<div class="filters"><button class="filter active" data-cat="ALL">ALL</button><button class="filter" data-cat="마블 머신">MARBLE MACHINE</button><button class="filter" data-cat="미니어처">MINIATURE</button><button class="filter" data-cat="오브제 드로잉">OBJECT DRAWING</button></div>
+<div class="works" id="worksGrid"></div>
+<div class="adminNote"><b>작품 추가:</b> <code>assets/works</code>에 사진을 넣고 <code>works.js</code>에 작품 정보 한 덩어리만 복사해 추가하세요. <b>video</b>에 YouTube 주소를 넣으면 작품 상세 화면에 영상이 자동으로 연결됩니다.</div>
+</div></section>
+
+<section id="note"><div class="wrap"><div class="sectionTitle">ARTIST NOTE</div><div class="intro"><div>
+<p>하나의 움직임은 작은 신호에서 시작됩니다. 마블 머신의 구슬은 정해진 길을 따라가지만 때로는 다른 방향으로 흐르거나 멈춥니다.</p>
+<p>미니어처는 여러 가지 복잡한 생각을 잠시 내려놓고 쉬기 위해 시작한 취미입니다. 작은 공간을 만들고 배치하는 동안 다른 생각들이 자연스럽게 멈추고, 그 작은 세계에 몰입하게 됩니다.</p>
+<p>오브제 드로잉은 작업 과정에서 모아온 배터리, 스프링, 전선 같은 익숙한 사물과 부품을 새로운 관계로 구성하면서, 아직 작동하지 않은 움직임의 가능성을 보여줍니다.</p>
+</div><div class="quote">“켜지고, 멈추고,<br>다시 움직이는 것들.”<br><br><span style="font-size:.52em;color:#666">관객의 작은 행동을 통해 작품이 비로소 움직이고, 그 순간 작품과 관객 사이에 관계가 만들어집니다.</span></div></div></div></section>
+
+<section id="artist"><div class="wrap"><div class="sectionTitle">ARTIST</div><div class="artist"><img src="portrait.jpg" alt="정병규 작가"><div>
+<h2 class="artistName">정병규 <small style="font-size:14px;color:#777;font-weight:400">JEONG BYEONG KYU</small></h2>
+<div class="artistBio">사진과 영상, 드론 이미지 같은 디지털 매체에서 출발해 AI를 활용한 작업과 아두이노, 모터, 센서, 기어, 스프링 등을 이용한 움직이는 오브제로 작업을 확장해 왔습니다. 최근에는 어린 시절의 놀이와 기계 장치가 만들어내는 움직임의 즐거움에 관심을 두고, 조형적인 아름다움과 이야기를 담은 작품을 만들고 있습니다.</div>
+</div></div></div></section>
+
+<section id="interview"><div class="wrap"><div class="sectionTitle">INTERVIEW</div><div class="qa">
+<div class="q"><strong>Q. 앞으로 어떤 작가가 되고 싶으신가요?</strong><p>앞으로도 제가 좋아하는 기계의 구조와 움직임, 그리고 그것을 직접 만들어가는 과정을 계속 작업하고 싶습니다. 새로운 기술이나 재료를 사용하는 것도 중요하지만, 그 안에 제가 어릴 때부터 느꼈던 만드는 즐거움과 놀이의 감각을 잃지 않고 싶습니다. 무엇보다 작품을 만들기 위해 일상을 사는 것이 아니라, 일상에서 자연스럽게 해온 활동들이 작품으로 이어지는 작가가 되고 싶습니다.</p></div>
+<div class="q"><strong>Q. 시간이 지나 관객들에게 어떤 작가로 기억되고 싶으신가요?</strong><p>어렵고 무거운 작품을 만드는 작가보다는 재미있는 작품을 만들고, 그 안에 생각할 거리를 담았던 작가로 기억되고 싶습니다.</p></div>
+<div class="q"><strong>Q. 마지막으로 관람객분들께 하고 싶은 메시지가 있다면?</strong><p>우선 일부러 찾아오신 거라면 정말 감사합니다. 이번 전시는 너무 어렵게 생각하지 않으셨으면 좋겠습니다. 작품을 보면서 가까이 다가가 보고, 스위치도 직접 켜보셨으면 합니다. 전시장을 나가면서 나도 한번 무언가를 만들어보고 싶다는 생각이 들거나, 평소 지나쳤던 작은 것들을 조금 다르게 바라보게 된다면 더없이 좋겠습니다.</p></div>
+</div></div></section>
+
+<section id="info"><div class="wrap"><div class="sectionTitle">INFO</div><div class="place"><div class="card"><h3>제2회 정병규 개인전</h3><p><b>ON & OFF</b><br>켜지고, 멈추고, 다시 움직이는 것들</p><p>2026. 09. 11 — 17<br>월요일 휴관 · 11:00 — 20:00</p></div><div class="card"><h3>오픈아츠 스페이스 머지</h3><p>부산광역시 금정구 부산대학로50번길 49</p><p>문의 051-527-8196<br>갤러리 · 카페 · 에이전시 · 코-오퍼레이티브</p></div></div></div></section>
+
+<footer><div class="wrap"><div class="logo">ON <span>&</span> OFF</div><p class="small">제2회 정병규 개인전 · 2026</p></div></footer>
+
+<div class="modal" id="modal"><div class="close" id="close">×</div><div class="modalBox"><div class="modalImg"><img id="mImg" alt=""></div><div class="modalText"><div class="cat" id="mCat"></div><h2 id="mTitle"></h2><p id="mTags"></p><p id="mDesc"></p><div id="videoArea"></div></div></div></div>
+
+<script src="works.js"></script>
+<script>
+const grid=document.getElementById('worksGrid'), modal=document.getElementById('modal');
+function yt(url){
+  if(!url) return "";
+  const m=url.match(/(?:youtu\.be\/|youtube\.com\/(?:watch\?v=|embed\/|shorts\/))([^?&/]+)/);
+  return m ? m[1] : "";
+}
+function render(cat="ALL"){
+  grid.innerHTML="";
+  WORKS.filter(w=>cat==="ALL"||w.category===cat).forEach((w,i)=>{
+    const card=document.createElement("article"); card.className="work";
+    card.innerHTML=`<img loading="lazy" src="assets/works/${w.image}" alt="${w.title}"><div class="workBody"><div class="workNo">${String(i+1).padStart(2,"0")} · ${w.category.toUpperCase()}</div><h3>${w.title}</h3><p>${w.tags||""}</p></div>`;
+    card.onclick=()=>openWork(w); grid.appendChild(card);
+  });
+}
+function openWork(w){
+  document.getElementById("mImg").src="assets/works/"+w.image;
+  document.getElementById("mImg").alt=w.title;
+  document.getElementById("mCat").textContent=w.category.toUpperCase();
+  document.getElementById("mTitle").textContent=w.title;
+  document.getElementById("mTags").textContent=w.tags||"";
+  document.getElementById("mDesc").textContent=w.description||"";
+  const area=document.getElementById("videoArea"); area.innerHTML="";
+  const id=yt(w.video||"");
+  if(id){
+    const btn=document.createElement("button"); btn.className="videoBtn"; btn.textContent="▶ 작품 작동 영상 보기";
+    const box=document.createElement("div"); box.className="videoBox";
+    box.innerHTML=`<iframe src="https://www.youtube.com/embed/${id}" title="${w.title} 영상" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+    btn.onclick=()=>{box.classList.toggle("open"); btn.textContent=box.classList.contains("open")?"■ 영상 닫기":"▶ 작품 작동 영상 보기"};
+    area.append(btn,box);
+  }
+  modal.classList.add("open");
+}
+document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");render(b.dataset.cat)});
+document.getElementById("close").onclick=()=>modal.classList.remove("open");
+modal.onclick=e=>{if(e.target===modal)modal.classList.remove("open")};
+render();
+</script>
+</body>
+</html>

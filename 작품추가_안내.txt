@@ -1,0 +1,32 @@
+# ON & OFF 홈페이지 — 작품 추가 안내
+
+## 1. 작품 사진
+`assets/works` 폴더에 JPG 사진을 넣습니다.
+
+## 2. 작품 정보
+`works.js`를 열고 아래 형식을 복사해 `const WORKS = [` 안에 추가합니다.
+
+{
+  "id": "17",
+  "title": "새 작품",
+  "category": "마블 머신",
+  "image": "work-17.jpg",
+  "tags": "구슬 · 움직임",
+  "description": "작품 설명",
+  "video": ""
+}
+
+## 3. 영상 연결
+YouTube 영상을 올린 뒤 `video`에 주소를 넣습니다.
+
+예:
+"video": "https://youtu.be/AbCdEf12345"
+
+영상이 없는 작품은:
+"video": ""
+
+## 4. GitHub에서 저장
+파일을 수정한 뒤 Commit changes를 누르면 홈페이지가 업데이트됩니다.
+
+## 5. 중요
+사진은 가능하면 JPG로 넣고, 1장당 1~2MB 이하를 권장합니다.
