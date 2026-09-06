@@ -21,10 +21,6 @@ const works = [
     description: "마블 머신 속 구슬은 하나의 작은 힘에서 시작해 다음 움직임으로 이어집니다. 정해진 구조 속에서도 때로는 예상하지 못한 길로 향하거나 멈춰버립니다. 하나의 생각이 또 다른 생각을 부르는 우리의 마음과 닮아 있습니다.",
     video: "https://www.youtube.com/watch?v=M032a-Ao6d0"
   },
-    youtube: "https://youtu.be/M032a-Ao6d0?si=u-zRjTb1gJSsKTtE",
-    articles: [],
-    blogs: []
-  },
   {
     title: "마블머신 O",
     category: "마블 머신",
