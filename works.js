@@ -19,7 +19,7 @@ const works = [
     material: "포맥스, 철사, 모터, 스위치, 색구슬 등",
     size: "45 × 33 cm",
     description: "마블 머신 속 구슬은 하나의 작은 힘에서 시작해 다음 움직임으로 이어집니다. 정해진 구조 속에서도 때로는 예상하지 못한 길로 향하거나 멈춰버립니다. 하나의 생각이 또 다른 생각을 부르는 우리의 마음과 닮아 있습니다.",
-    video: "https://www.youtube.com/watch?v=M032a-Ao6d0"
+    video: "https://youtu.be/-rrtd2VDrGk"
   },
   {
     title: "마블머신 B",
@@ -74,7 +74,7 @@ const works = [
     material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
     size: "45 × 33 cm",
     description: "오렌지 배경의 마블 머신 속 구슬은 둥근 레일을 타고 올라가 내려오며, 철사의 요철로 인해 천천히 순차적으로 내려옵니다. ",
-    video: ""
+    video: "https://youtu.be/7fCRnus98OE?si=DGCw7BYiAvE06Jul"
   },
 {
   title: "mini_01",
