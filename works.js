@@ -1,15 +1,14 @@
 const works = [
-{
-  title: "mini_01",
-  category: "미니어처",
-  image: "no7_mini_01.jpg",
-  onImage: "no7_mini_01.jpg",
-  tags: "작은 세계 · 빛 · 몰입",
+ {
+    title: "마블머신 E",
+    category: "마블 머신",
+    image: "no7-마블머신 E.jpg",
+    tags: "구슬 · 장치 · 참여",
     year: "2026",
-    material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
-    size: "30 × 7 cm",
-    description: "미니어처는 복잡한 생각을 잠시 OFF 하기 위해 시작한 작은 취미였습니다. 작은 세계를 만들고 그 안에 몰입하는 동안 수많은 생각들은 잠시 멈춥니다. 이번 전시에서는 그 작은 세계에 빛을 더했습니다.",
-    video: ""
+    material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
+    size: "45 × 33 cm",
+    description: "오렌지 배경의 마블 머신 속 구슬은 둥근 레일을 타고 올라가 내려오며, 철사의 요철로 인해 천천히 순차적으로 내려옵니다. ",
+    video: "https://youtu.be/7fCRnus98OE?si=DGCw7BYiAvE06Jul"
   },
   {
     title: "마블머신 N",
@@ -77,16 +76,17 @@ const works = [
     description: "마블 머신 속 구슬은 하나의 작은 힘에서 시작해 다음 움직임으로 이어집니다. 관객의 작은 행동으로 시작된 움직임을 바라보며, 움직임과 멈춤 사이의 변화를 경험하도록 구성했습니다.",
     video: ""
   },
- {
-    title: "마블머신 E",
-    category: "마블 머신",
-    image: "no7-마블머신 E.jpg",
-    tags: "구슬 · 장치 · 참여",
+{
+  title: "mini_01",
+  category: "미니어처",
+  image: "no7_mini_01.jpg",
+  onImage: "no7_mini_01.jpg",
+  tags: "작은 세계 · 빛 · 몰입",
     year: "2026",
-    material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
-    size: "45 × 33 cm",
-    description: "오렌지 배경의 마블 머신 속 구슬은 둥근 레일을 타고 올라가 내려오며, 철사의 요철로 인해 천천히 순차적으로 내려옵니다. ",
-    video: "https://youtu.be/7fCRnus98OE?si=DGCw7BYiAvE06Jul"
+    material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
+    size: "30 × 7 cm",
+    description: "미니어처는 복잡한 생각을 잠시 OFF 하기 위해 시작한 작은 취미였습니다. 작은 세계를 만들고 그 안에 몰입하는 동안 수많은 생각들은 잠시 멈춥니다. 이번 전시에서는 그 작은 세계에 빛을 더했습니다.",
+    video: ""
   },
  {
     title: "mini_02",
