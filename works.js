@@ -8,7 +8,7 @@ const works = [
     material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
     size: "45 × 33 cm",
     description: "이 작품의 스파이럴 리프트는 특별한 부품을 제작해 사용한 것이 아니라, 알루미늄 옷걸이를 재료로 직접 만들었습니다. 구슬이 안정적으로 얹혀 올라갈 수 있도록 일반적인 옷걸이보다 조금 더 굵은 알루미늄 옷걸이를 선택하고, 이를 둥글게 말아 나선형의 리프트를 만들었습니다. 중앙의 봉 역시 별도의 금속봉을 사용한 것이 아니라 부엌 개수대에서 사용하는 접이식 건조망의 봉을 분리해 재활용한 것입니다.",
-    video: "https://youtu.be/7fCRnus98OE?si=DGCw7BYiAvE06Jul"
+    video: "https://youtu.be/0L2IzufRiP8?si=pRveqoP_IMaJPeFg"
   },
   {
     title: "마블머신 N",
