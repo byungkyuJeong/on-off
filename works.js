@@ -1,4 +1,15 @@
 const works = [
+{
+    title: "마블머신 Q",
+    category: "마블 머신",
+    image: "no0-마블머신 Q.jpg",
+    tags: "구슬 · 장치 · 참여",
+    year: "2026",
+    material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
+    size: "26 × 18 cm",
+    description: "마블머신 Q는 제가 만든 가장 작은 마블머신입니다. 느린 모터와 스프링 리프트의 움직임, 구슬이 떨어지는 작은 소리를 통해 공간에 느린 리듬을 만들고자 했습니다. 또한 노출된 전원선과 충전기까지 작품의 일부로 받아들여, 기계와 공간이 자연스럽게 연결되도록 구성했습니다.",
+    video: "https://youtu.be/JiKrWwJgtZg"
+  },
  {
     title: "마블머신 E",
     category: "마블 머신",
