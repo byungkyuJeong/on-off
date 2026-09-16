@@ -85,13 +85,13 @@ const works = [
     material: "자작합판, 구리선, 모터, 스위치, 색구슬, 조명 등",
     size: "120 × 60 cm",
     description: "마블머신 A는 둥근 모터가 줄을 당기면서 엘리베이터를 움직여 구슬을 위로 올리는 구조로 만들었습니다. 올라온 구슬은 무게에 의해 잠시 대기하다가 다음 구슬이 도착하면 함께 출발하고, 스위칭 장치를 통해 서로 다른 두 갈래의 길로 나뉘어 이동합니다. 이후 다시 하나의 구멍으로 합쳐지면서 반복되는 순환 구조를 이루도록 구성했습니다.",
-    video: "https://youtu.be/OLzGZo5xOHs"
+    video: "https://youtu.be/n4hXBPc0Yos"
   },
 {
   title: "mini_01",
   category: "미니어처",
-  image: "no7_mini_01.jpg",
-  onImage: "no7_mini_01.jpg",
+  image: "mini_01.jpg",
+  onImage: "mini_01_on.jpg",
   tags: "작은 세계 · 빛 · 몰입",
     year: "2026",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
@@ -102,8 +102,8 @@ const works = [
  {
     title: "mini_02",
     category: "미니어처",
- image: "no8_mini_02_off.jpg",
-  onImage: "no8_mini_02_on.jpg",
+ image: "mini_02.jpg",
+  onImage: "mini_02_on.jpg",
     tags: "작은 세계 · OFF의 시간",
     year: "2025",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
@@ -111,21 +111,22 @@ const works = [
     description: "작은 집이나 사물을 하나씩 만들고 배치하다 보면 다른 생각들이 자연스럽게 멈추고, 그 작은 세계에 몰입하게 됩니다. 미니어처를 만드는 과정은 작가에게 일종의 OFF의 시간이었습니다.",
     video: ""
   },
-  {
-    title: "mini_03",
-    category: "미니어처",
-    image: "no9_mini_03.jpg",
-    tags: "작은 세계 · 공간 · 빛",
-    year: "2026",
-    material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
-    size: "30 × 7 cm",
-    description: "손으로 작은 세계를 만들고 그 안에 몰입하는 동안 복잡한 생각을 잠시 멈춥니다. 스위치가 켜지는 순간 정지되어 있던 작은 풍경에 빛이 더해지고 새로운 모습으로 보입니다.",
+{
+  title: "mini_03",
+  category: "미니어처",
+  image: "mini_03.jpg",
+  onImage: "mini_03_on.jpg",
+  year: "2026",
+  material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
+  size: "30 × 7 cm",
+  description: "손으로 작은 세계를 만들고 그 안에 몰입하는 동안 복잡한 생각을 잠시 멈춥니다. 스위치가 켜지는 순간 정지되어 있던 작은 풍경에 빛이 더해지고 새로운 모습으로 보입니다.",
     video: ""
   },
   {
     title: "mini_04",
     category: "미니어처",
-    image: "no10_mini2.jpg",
+    image: "mini_04.jpg",
+    onImage: "mini_04_on.jpg",
     tags: "미니어처 · 구성 · 관찰",
     year: "2026",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
@@ -136,7 +137,8 @@ const works = [
   {
     title: "mini_05",
     category: "미니어처",
-    image: "no11_mini1.jpg",
+    image: "mini_05.jpg",
+    onImage: "mini_05_on.jpg",
     tags: "미니어처 · 작은 풍경",
     year: "2026",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
@@ -147,7 +149,8 @@ const works = [
   {
     title: "mini_06",
     category: "미니어처",
-    image: "no12_min_01.jpg",
+    image: "mini_06.jpg",
+    onImage: "mini_06_on.jpg",
     tags: "미니어처 · 빛 · 공간",
     year: "2026",
     material: "나무에 옻칠, 스위치, 미니어처 조명, 종이, 나무 등",
