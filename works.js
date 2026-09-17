@@ -161,7 +161,7 @@ const works = [
   {
     title: "mini_07",
     category: "미니어처",
-     image: "mini_06.jpg",
+    image: "mini_07.jpg",
     onImage: "mini_07_on.jpg",
     tags: "미니어처 · 작은 세계",
     year: "2026",
