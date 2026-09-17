@@ -161,8 +161,7 @@ const works = [
   {
     title: "mini_07",
     category: "미니어처",
-    image: "mini_07.jpg",
-    onImage: "mini_07_on.jpg",
+    image: "no13_mini7.jpg",
     tags: "미니어처 · 작은 세계",
     year: "2026",
     material: "포맥스, 스위치, 미니어처 조명, 종이, 나무 등",

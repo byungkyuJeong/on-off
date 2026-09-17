@@ -1,0 +1,16 @@
+[BAENIART V8 업로드 방법]
+
+ZIP 자체를 GitHub에 올리지 않습니다.
+1. 이 ZIP을 PC에서 압축 해제합니다.
+2. 압축을 푼 폴더 안의 '파일과 폴더 전체'를 GitHub 저장소 on-off의 최상위(root)에 올립니다.
+3. index.html, works.js, portfolio.html, exhibitions.html, on-off-2026.html 및 assets 폴더가 모두 같은 최상위에 있어야 합니다.
+4. 기존 파일은 같은 이름이면 덮어쓰기 합니다.
+5. assets/works와 assets/portfolio 폴더 구조는 그대로 유지합니다.
+
+이번 V8:
+- 메인: 작가/작품 중심
+- WORKS: 기존 작품 전체
+- PORTFOLIO: 기존 포트폴리오
+- EXHIBITIONS: 전시 이력
+- ON & OFF: 제2회 개인전 아카이브
+- mini_01~06: 마우스 오버 시 ON 이미지
